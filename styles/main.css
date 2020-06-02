@@ -28,6 +28,9 @@ body {
   background-color: var(--light-color);
   width: 100%;
   position: fixed;
+}
+
+.header .wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -90,9 +93,10 @@ body {
 /*Tablet & Desktop */
 
 @media all and (min-width: 768px) {
-  .header {
+  .header .wrapper {
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
   }
 
   .mainSection h1 {
