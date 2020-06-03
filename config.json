@@ -23,15 +23,13 @@
     "dist": "docs/"
   },
   "js": {
-    "src": [
-      "src/js/**/*.js"
-    ],
+    "src": ["src/js/**/*.js"],
     "dest": "public/assets/js/",
     "dist": "docs/assets/js/"
   },
   "images": {
     "src": "src/images/**/*.{gif,jpg,jpeg,JPG,JPEG,png,svg}",
-    "dest": "public/assets/images/",
+    "dest": "public/assets/img/",
     "dist": "docs/assets/images/"
   },
   "watch": {
